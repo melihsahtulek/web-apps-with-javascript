@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+.container-fluid{
+    min-height: 100vh !important;
+}
+.rowOne{
+    min-height: 100vh !important;
+}
+h1{
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px !important;
+    padding-top: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+#channelShow{
+    font-family: 'Yellowtail', cursive;
+    display: block;
+    font-size: 25px !important;
+}
+span{
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    font-size: 18px;
+}
+h5{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px !important;
+    background-color: #e74c3c;
+    display: inline;
+    padding: 3px;
+    color: #ecf0f1;
+}
+p{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+}
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #e74c3c;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #e74c3c;
+    cursor: pointer;
+  }
+  button{
+      margin: 0px 4px 0px 4px !important;
+  }
+  option{
+      text-transform: uppercase;  
+      font-family: 'Quicksand', sans-serif;
+  }
