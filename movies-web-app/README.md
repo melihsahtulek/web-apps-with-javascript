@@ -1,0 +1,2 @@
+### Note:
+hi developer , if you want using this app you will get "api_key" from "[here](https://www.omdbapi.com/apikey.aspx)". Then open the "app.js" file you should find the "api_key" variable. now , you must write your "api_key" is here and done :)) thanks

@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap");
+
+:root {
+  --red: rgba(240, 52, 52, 1);
+  --gray: rgba(242, 241, 239, 1);
+}
+
+html {
+  font-family: "Quicksand", sans-serif;
+  font-size: 17px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 0 1rem;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(to right, rgba(240, 52, 52, 1), rgba(246, 71, 71, 1));
+}
+
+main .user {
+  width: 320px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  gap: 10px;
+}
+
+main .user .profileImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .user .profileImage img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px var(--gray);
+}
+
+main .user .info {
+  width: 100%;
+}
+
+main .user .info ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+main .user .info ul li {
+  display: flex;
+  flex-direction: column;
+}
+
+main .user .info ul li span:nth-of-type(1) {
+  font-weight: 900;
+  color: var(--red);
+  font-size: 1rem;
+}
+
+main .user .info ul li span:nth-of-type(2) {
+  color: #111;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+main footer {
+  width: 320px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 15px;
+}
+
+main footer button {
+  all: unset;
+  min-width: 100% !important;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: var(--red);
+  border-radius: 5px;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  text-align: center;
+  color: #ffffff;
+}
+
+main footer a {
+  text-align: center;
+  min-width: 100%;
+  display: block;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--red);
+  text-decoration: none;
+}

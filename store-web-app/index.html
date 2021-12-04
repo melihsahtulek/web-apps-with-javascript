@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <section class="headerTop" data-openSearchInp="false">
+        <div class="search">
+          <input type="text" name="searchInp" placeholder="search" class="searchInp" />
+          <div class="searchResult">
+            <div class="resultList">
+              <ul></ul>
+            </div>
+            <div class="noResult">
+              <h4>no result found <span class="material-icons md-48">sentiment_dissatisfied</span></h4>
+            </div>
+          </div>
+        </div>
+        <div class="userButtons">
+          <button type="button">Sign In</button>
+          <button type="button">Sign Up</button>
+        </div>
+      </section>
+      <header>
+        <div class="logo">
+          <h1>fake store</h1>
+        </div>
+        <div class="basketBtn">
+          <span class="material-icons md-48">shopping_basket</span>
+          <span id="basketLength">0</span>
+        </div>
+      </header>
+      <div class="basketSideNav">
+        <div class="sideNavTitle">
+          <span class="material-icons md-48 closeBasket">close</span>
+          <h3>Your Basket</h3>
+        </div>
+        <div class="basketItems"></div>
+
+        <div class="checkoutArea">
+          <h3></h3>
+          <a href="#">checkout <span class="material-icons">check_circle</span></a>
+        </div>
+      </div>
+      <section class="slider">
+        <div class="images">
+          <a href="#">
+            <img src="./assets/images/slider/slider__1.jpg" alt="" />
+          </a>
+          <a href="#">
+            <img src="./assets/images/slider/silder__2.jpg" alt="" />
+          </a>
+        </div>
+        <div class="controls">
+          <div id="back">
+            <span class="material-icons md-48">arrow_back</span>
+          </div>
+          <div id="forward">
+            <span class="material-icons md-48">arrow_forward</span>
+          </div>
+        </div>
+      </section>
+      <section class="mainMenu">
+        <nav class="mainMenuNav"></nav>
+      </section>
+      <section class="allProducts"></section>
+      <footer><span>fakestore 2021</span><a href="https://melihsahtulek.com/">dev. Melihşah Tülek</a></footer>
+
+      <div class="mobileBottomMenuTopScreen">
+        <h3>categories</h3>
+        <nav class="mobileNav"></nav>
+      </div>
+      <div class="blackScreen"></div>
+      <div class="mobileBottomMenu">
+        <span class="material-icons md-48 mobileMainMenuCloseBtn" style="cursor: pointer">home</span>
+        <span class="material-icons md-48 mobileMainMenuBtn" style="cursor: pointer">apps</span>
+        <span class="material-icons md-48 mobileMainMenuSearchBtn" style="cursor: pointer">search</span>
+        <span class="material-icons md-48" style="cursor: no-drop">account_circle</span>
+      </div>
+    </main>
+
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

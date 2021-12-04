@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>movie app</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="containerFull">
+          <div class="container flex center column gap-20">
+            <div class="title">
+              <h1>movie finder</h1>
+            </div>
+            <div class="searchForm">
+              <form action="javascript:void(0)" name="searchForm">
+                <input type="search" name="s" id="searchInp" />
+                <button type="submit"><i class="material-icons md-32">search</i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="containerFull">
+        <div class="container mt-3 resultCount">
+          <h3 id="totalResult"></h3>
+        </div>
+      </div>
+
+      <div class="containerFull mt-3 mb-3" style="flex: 1">
+        <div class="container flex column gap-20" id="dataContainer"></div>
+      </div>
+
+      <div class="containerFull">
+        <div class="container flex center column">
+          <span class="material-icons md-32" id="addNextPage">add</span>
+        </div>
+      </div>
+
+      <footer>
+        <h3>
+          made with <span class="material-icons">favorite</span> <a href="https://melihsahtulek.com/">Melihşah Tülek</a>
+        </h3>
+      </footer>
+    </main>
+
+    <div class="loading">
+      <div class="round"></div>
+    </div>
+
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
